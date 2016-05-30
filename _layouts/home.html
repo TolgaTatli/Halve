@@ -1,0 +1,43 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="homepage">
+
+  <div class="block-left">
+    <div class="content">
+      <div class="main-info">
+        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
+        <h1>
+          {{ site.title }}
+        </h1>
+        <h2>
+          {{ site.description }}
+        </h2>
+        {% include social-links.html %}
+      </div>
+    </div>
+    <canvas></canvas>
+  </div>
+
+  <div class="block-right">
+    <a href="{{ site.url }}/posts" title="posts" class="posts-menu-icon"></a>
+    <span class="posts-link">POSTS</span>
+    <a title="project" class="projects-menu-icon">
+      <span></span>
+    </a>
+    <span class="projects-link">PROJECTS</span>
+    <div class="content">
+      <div class="about-info">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  {% include overlay.html %}
+  {% include scripts.html %}
+  <script src="{{ site.url }}/assets/js/canvas.js"></script>
+</body>
+</html>

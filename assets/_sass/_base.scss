@@ -1,0 +1,301 @@
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+html {
+  line-height: 1;
+  overflow: hidden;
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1.2
+}
+
+body {
+  font-family: $base-font;
+  color: $overlay-color;
+  background: $white;
+}
+
+a {
+  color: $overlay-color;
+  outline: none;
+  text-decoration: none
+}
+
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  color: $overlay-color
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle
+}
+
+q,
+blockquote {
+  quotes: none
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none
+}
+
+a img {
+  border: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box
+}
+
+// h tags
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 2rem 0 0.5rem;
+  font-family: $base-font;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.9em;
+}
+
+h6 {
+  font-size: 0.8em;
+}
+
+// figures and images
+figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2em 0;
+  @include clearfix();
+  figcaption {
+    margin-bottom: 0.5em;
+    color: lighten($black, 50%);
+    font-size: 0.85em;
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin-bottom: 10px;
+  }
+  > a {
+    display: block;
+    border: none !important;
+  }
+  &.half {
+    @media only screen and (min-width: $small) {
+      > a, > img {
+        width: calc(50% - 4px);
+        float: left;
+        margin-left: 1px;
+        margin-right: 1px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+  &.third {
+    @media only screen and (min-width: $small) {
+      > a, > img {
+        width: calc(33.3% - 6px);
+        float: left;
+        margin-left: 1px;
+        margin-right: 1px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $small - 1px) {
+  figure {
+    justify-content: center;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  image-rendering: optimizeQuality;
+  margin: 0 auto;
+}
+
+// blockquotes
+blockquote {
+  margin: 2em 1em 2em 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-style: italic;
+  border-left: 0.25em solid $gray;
+  cite {
+    font-style: italic;
+    font-size: 0.85em;
+    &:before {
+      content: "\2014";
+      padding-right: 5px;
+    }
+  }
+}
+
+cite {
+  font-style: italic;
+  font-size: 0.85em;
+}
+
+// definition lists
+dt {
+  border: 1px solid darken($white, 7%);
+  padding: 0.5em;
+  background-color: darken($white, 5%);
+  font-weight: bold;
+}
+
+dd {
+  padding: 0.5em 1em;
+  margin-left: 0;
+  margin-bottom: 2em;
+  border: 1px solid darken($white, 7%);
+  border-top: 0;
+}
+
+// table
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid darken($white, 7%);
+  margin-bottom: 1em;
+}
+
+thead {
+  background-color: darken($white, 5%);
+  border-bottom: 1px solid darken($white, 7%);
+}
+
+tr,
+td {
+  border-bottom: 1px solid darken($white, 7%);
+}
+
+th,
+td {
+  text-align: center;
+  border-right: 1px solid darken($white, 7%);
+  padding: 0.5em;
+  a {
+    text-decoration: none !important;
+  }
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+th:last-child,
+td:last-child {
+  text-align: right;
+}
+
+.gist {
+  tr,
+  td {
+    border-bottom: 0;
+  }
+}
+
+// code
+pre {
+    overflow-x: auto; // add scrollbars to wide code blocks
+    padding: 1rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code {
+    padding: 0.1rem 0.2rem;
+    font-size: 0.9em;
+    border-radius: 2px;
+    background-color: darken($white, 5%);
+    font-family: $base-font;
+  }

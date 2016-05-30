@@ -1,0 +1,163 @@
+// circle
+.circle {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+// alignment
+.align-left {
+  @include clearfix();
+  float: left;
+  margin-right: 1.5em;
+}
+
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-right {
+  @include clearfix();
+  float: right;
+  margin-left: 1.5em;
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+  font-weight: 400;
+  background-color: darken($white, 7%);
+  color: lighten($black, 20%);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  &:hover {
+    background-color: mix($gray, $blue, 40%);
+    border: 1px solid mix($gray, $blue, 40%);
+    color: darken($white, 5%);
+  }
+  &_info {
+    background-color: lighten($aqua, 10%);
+    &:hover {
+      background-color: darken($aqua, 5%);
+      border-color: darken($aqua, 5%);
+    }
+  }
+  &_warning {
+    background-color: lighten($yellow, 10%);
+    &:hover {
+      background-color: darken($yellow, 5%);
+      border-color: darken($yellow, 5%);
+    }
+  }
+  &_success{
+    background-color: lighten($green, 10%);
+    &:hover {
+      background-color: darken($green, 5%);
+      border-color: darken($green, 5%);
+    }
+  }
+  &_danger {
+    background-color: lighten($red, 10%);
+    &:hover {
+      background-color: darken($red, 5%);
+      border-color: darken($red, 5%);
+    }
+  }
+  &_facebook {
+    background-color: #3b5998;
+    color: $white !important;
+    &:hover {
+      background-color: mix($white, #3b5998, 25%);
+      border-color: mix($white, #3b5998, 25%);
+    }
+  }
+  &_google-plus {
+    background-color: #dc4e41;
+    color: $white !important;
+    &:hover {
+      background-color: mix($white, #dc4e41, 25%);
+      border-color: mix($white, #dc4e41, 25%);
+    }
+  }
+  &_twitter {
+    background-color: #55acee;
+    color: $white !important;
+    &:hover {
+      background-color: mix($white, #55acee, 25%);
+      border-color: mix($white, #55acee, 25%);
+    }
+  }
+}
+a.btn {
+  text-decoration: none;
+  color: lighten($black, 30%);
+}
+
+// notice
+@mixin notice($notice-color) {
+  margin: 2em 0 !important;  // override
+  padding: 1em;
+  font-size: 0.9em !important;
+  text-indent: initial; // override
+  background-color: mix(#fff, $notice-color, 90%);
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
+  h4 {
+    margin-top: 0 !important; // override
+    margin-bottom: 0.75em;
+  }
+  p {
+    &:last-child {
+      margin-bottom: 0 !important; // override
+    }
+  }
+  h4 + p {
+    // remove space above paragraphs that appear directly after notice headline
+    margin-top: 0;
+    padding-top: 0;
+  }
+  a {
+    color: $notice-color;
+    &:hover {
+      color: mix(#000, $notice-color, 40%);
+    }
+  }
+  code {
+    background-color: mix(#fff, $notice-color, 95%)
+  }
+  ul {
+    &:last-child {
+      margin-bottom: 0; // override
+    }
+  }
+}
+
+.notice {
+  @include notice(darken($white, 30%));
+  &_info {
+    @include notice($aqua);
+  }
+  &_warning {
+    @include notice($yellow);
+  }
+  &_success {
+    @include notice($green);
+  }
+  &_danger {
+    @include notice($red);
+  }
+}

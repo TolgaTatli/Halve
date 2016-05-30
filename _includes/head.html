@@ -1,0 +1,64 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  {% if page.title %}
+  <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }} &#8211; {{ site.title }}</title>
+  {% else %}
+  <title>{{ site.title }}</title>
+  {% endif %}
+  {% if page.excerpt %}
+  <meta name="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+  {% else %}
+  <meta name="description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+  <!-- Twitter Cards -->
+  {% if page.image %}{% capture image %}{{ page.image }}{% endcapture %}{% unless image contains 'http://' or image contains 'https://' %}{% capture image %}{{ site.url }}/{{ image }}{% endcapture %}{% endunless %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ image }}">
+  {% else %}<meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{ site.logo }}">{% endif %}
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+  {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
+  <meta name="twitter:creator" content="@{{ site.twitter }}">{% endif %}
+  <!-- Open Graph -->
+  <meta property="og:locale" content="{{ site.locale }}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="{{ site.url }}/images/{{ site.logo }}">
+  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+  <link rel="canonical" href="{{ canonical }}">
+  <!-- Handheld -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Feed -->
+  {% feed_meta %}
+  <!-- Favicons -->
+  <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png" />
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" />
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css">
+  <!-- Left Block Image for Posts -->
+  {% if page.image %}
+  {% capture image %}{{ page.image }}{% endcapture %}
+  {% unless image contains 'http://' or image contains 'https://' %}{% capture image %}{{ site.url }}/{{ image }}{% endcapture %}{% endunless %}
+  <style type="text/css">
+    #posts.inner-post-page .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ image }}) no-repeat;background-size: cover;}
+  </style>
+  {% else %}
+  <style type="text/css">
+    #posts.inner-post-page .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.url }}/{{ site.background.default-post }}) no-repeat;background-size: cover;}
+  </style>
+  {% endif %}
+  <!-- Left Block Images for Home and Pages -->
+  <style type="text/css">
+    #posts .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.url }}/{{ site.background.post-list }}) no-repeat;background-size: cover, cover;}
+    .block-left {background: linear-gradient(rgba(44,45,51,0.9), rgba(44,45,51,0.9)), url({{ site.url }}/{{ site.background.homepage }}) no-repeat;background-size: cover;}
+  </style>
+</head>
