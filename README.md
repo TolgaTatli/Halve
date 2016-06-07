@@ -1,4 +1,4 @@
-# Halve
+# Halve  [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/taylantatli)
 
 This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
 
