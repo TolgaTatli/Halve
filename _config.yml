@@ -53,6 +53,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #xmpp:              username@server.com
 #hackernews:        username
 behance:           username
+#strava:             userid         # no icon for now, check font awesome for updates # number form a my profile link https://www.strava.com/athletes/123456
 
 # Gems
 gems:
