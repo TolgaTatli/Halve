@@ -39,6 +39,10 @@ layout: compress
         <br>
         {% include share.html %}
         {% include page-pagination.html %}
+        {% if site.comments == "disqus" %}
+        <br>
+        {% include disqus.html %}
+        {% endif %}
       </div>
     </div>
     {% include scripts.html %}

@@ -11,6 +11,11 @@ background:
   post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
   default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
+# Comments
+#comments: disqus
+#disqus:
+#  shortname: EXAMPLE # IMPORTANT: Replace EXAMPLE with your forum shortname!
+
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
