@@ -10,7 +10,7 @@ tag:
 ---
 
 ## Today is my first day at 
-<img src="/images/devbootcamp.png">
+<a href="http://www.devbootcamp.com"><img src="/images/devbootcamp.png"></a>
 
 After attempting to learn to code on my own, I finally made the decision to join this programming bootcamp, which opened in 2012. I will be spending the first 9 weeks learning remotely, and then the following 9 weeks on-site in downtown Seattle.
 
