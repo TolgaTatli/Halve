@@ -1,10 +1,8 @@
 ---
 layout: home
 ---
-# About Theme
+# About Me
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+Hi, my name is Preet, and I live in the beautiful Pacific Northwest! I have been in the restaurant industry as both an owner and manager for about the past 15 years. I have always had a passion for technology, so I decided to pivot and learn to program.
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
-
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+I am currently attending Dev Bootcamp, a 19 week programming immersive school that teaches novices how to program and build rich and robust web applications.
