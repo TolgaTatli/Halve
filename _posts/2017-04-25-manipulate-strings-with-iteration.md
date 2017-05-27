@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Manipulate Strings in Ruby with Iteration"
-date:   2017-04-16
+date:   2017-04-25
 excerpt: "Today we look at manipulating strings by iterating through them."
 tag:
 - Dev Bootcamp
@@ -18,4 +18,4 @@ We are tasked with the assignment of creating a method that takes in a string, a
 * Swaps the first and last name
 * Changes all of the consonants to the next consonant in the alphabet.
 
-Phew. This is going to be tough!
+Phew. This is going to be tough! Now let's get started.
