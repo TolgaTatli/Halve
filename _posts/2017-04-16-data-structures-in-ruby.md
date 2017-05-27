@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Structures in Ruby"
-date:   2017-04-11
+date:   2017-04-16
 excerpt: "Ruby is an object oriented language"
 tag:
 - Dev Bootcamp
