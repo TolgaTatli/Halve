@@ -11,7 +11,7 @@ layout: compress
       <div class="content">
         <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
         <div class="post-title-section">
-          <div class="section-line">Posts <em>/</em></div>
+          <div class="section-line">Posts <em>=></em></div>
           <h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
           <ul class="tags">
             {% for tag in page.tags %}
@@ -20,7 +20,7 @@ layout: compress
               {% endunless %}
             {% endfor %}
           </ul>
-          <div class="section-line reverse"><a href="{{ site.url}}/posts">Back to posts</a> <em>/</em></div>
+          <div class="section-line reverse"><a href="{{ site.url}}/posts"><em><=</em>Back to posts</a></div>
         </div>
       </div>
     </div>

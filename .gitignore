@@ -1,0 +1,5 @@
+
+# Ignore the following directories:
+
+_site/
+.sass-cache/
