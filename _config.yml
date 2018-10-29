@@ -1,7 +1,7 @@
 # Site
 title: home
 description: Under Construction Home Page
-url: https://taylantatli.github.io/Halve
+url: http://jackagriffiths.xyz/home
 logo: 007.png                                       # Site logo
 locale: en_US
 
@@ -33,16 +33,16 @@ sass:
 #google.plus:        username
 #twitter:            username
 #facebook:           username
-github:             username
+github:             jackagriffiths
 stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          username
+linkedin:          jack-griffiths
 #xing:              username
-#instagram:          username
+instagram:          jg.v._
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-#steam:              username
+steam:              valencee
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
