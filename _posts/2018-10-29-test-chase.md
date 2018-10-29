@@ -7,10 +7,8 @@ tags:
 
 ### Important Announcement!
 
-<img src="{{ site.url }}/images/chase_keyboard.jpg" alt="">
 
 Chase is our house cat. He is very orange and fluffy.
 {: style="text-align: center;"}
 
-{% raw %}<img src="{{ site.url }}/images/chase_keyboard.jpg" alt="">{% endraw %}
-
+<img src="{{ site.url }}/images/chase_keyboard.jpg" alt="">
