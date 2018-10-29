@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# Welcome to my humble abode
+# Hails
 
 Hi there! 
 
