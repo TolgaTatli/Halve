@@ -86,14 +86,14 @@ canvas {
     }
   }
   &:hover {
-    border-color: $green;
+    border-color: $red;
     &:before {
-      border-color: $green;
+      border-color: $red;
     }
     span {
-      border-color: $green;
+      border-color: $red;
       &:before {
-        border-color: $green;
+        border-color: $red;
       }
     }
   }
@@ -565,7 +565,7 @@ canvas {
   }
   a:not(.btn):not(.pagination_pager) {
     color: #399f62;
-    border-bottom: 1px dotted $green;
+    border-bottom: 1px dotted $red;
   }
   ul,
   ol {
