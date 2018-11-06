@@ -2,3 +2,23 @@
   url: http://google.ca
   image: https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a_400x400.jpeg
   completed: true
+
+- title: Moon Jekyll Theme
+  url: http://taylantatli.me/Moon
+  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
+  completed: true
+
+- title: Ramme Jekyll Theme
+  url: http://taylantatli.me/Ramme
+  image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
+  completed: true
+
+- title: Daisy Pelican Theme
+  url: http://taylantatli.me/Daisy-Pelican-Theme/
+  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
+  completed: true
+
+- title: Block Icon Theme
+  url: https://github.com/TaylanTatli/Block-Icon-Theme
+  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
+completed: false
