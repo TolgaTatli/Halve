@@ -1,10 +1,17 @@
 ---
 layout: home
 ---
-# About Theme
+# About me
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+我是茗赫(Kaitlynnnnn)，一名学生 A
+   爱好：玩游戏xD
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+
+
+
+
+这是 我 利用Github搭建的 O
+                     使用的主题为 [Vangelis Tzortzis](https://github.com/srekoble) 的 [Halve](http://vangeltzo.com/) 
+
+
