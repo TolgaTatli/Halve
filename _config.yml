@@ -1,6 +1,6 @@
 # Site
 title: Kaitlynnnnn
-description: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=52 src="//music.163.com/outchain/player?type=0&id=454594442&auto=1&height=32"></iframe>
+description: <embed src="//music.163.com/style/swf/widget.swf?sid=454594442&type=0&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
 url: https://Kaitlynnnnn.github.io
 logo: halve.png                                       # Site logo
 locale: en_US
