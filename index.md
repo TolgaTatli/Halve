@@ -12,6 +12,7 @@ layout: home
 
 
 这是 我 利用Github搭建的 O
-                     使用的主题为 [Vangelis Tzortzis](https://github.com/srekoble) 的 [Halve](http://vangeltzo.com/) 
+                     使用的主题为 [Vangelis Tzortzis](https://github.com/srekoble) 的 [Halve](http://vangeltzo.com/)
+                     <script src="./dist/skPlayer.min.js"></script>
 
 
