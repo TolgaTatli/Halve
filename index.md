@@ -3,7 +3,7 @@ layout: home
 ---
 # About me
 
-我是[茗赫(Kaitlynnnnn)](https://tencent://message/?uin=1635376770)，一名学生 A
+我是[茗赫(Kaitlynnnnn)](tencent://Message/?Uin=1635376770)，一名学生 A
    爱好：玩游戏xD 
    
 
