@@ -13,7 +13,7 @@ layout: home
 使用的主题为 [Vangelis Tzortzis](https://github.com/srekoble) 的 [Halve](http://vangeltzo.com/) 
 
 
-<a href="encent://Message/?Uin=1635376770" target="_blank">发起QQ对话</a>
+<a href="Tencent://Message/?Uin=1635376770" target="_blank">发起QQ对话(pc-QQ)</a>
 
 
                      
