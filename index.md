@@ -13,7 +13,7 @@ layout: home
 使用的主题为 [Vangelis Tzortzis](https://github.com/srekoble) 的 [Halve](http://vangeltzo.com/) 
 
 
-[发起QQ对话]: encent://Message/?Uin=1635376770 'pc-QQ' #pc-QQ
+[发起QQ对话]: encent://Message/?Uin=1635376770 'pc-QQ'
 
                      
 
