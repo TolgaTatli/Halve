@@ -10,7 +10,7 @@
   {% if page.excerpt %}
   <meta name="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
   {% else %}
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description }}
   {% endif %}
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   <!-- Twitter Cards -->
