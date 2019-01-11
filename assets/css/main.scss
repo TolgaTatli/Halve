@@ -19,29 +19,3 @@ cursor: url(https://raw.githubusercontent.com/Kaitlynnnnn/Kaitlynnnnn.github.io/
 /** 链接指针样式**/
 a:hover{cursor:url(https://raw.githubusercontent.com/Kaitlynnnnn/Kaitlynnnnn.github.io/master/images/2.png), pointer;}
 /** 鼠标样式 结束**/
-
-/** 输入文字动画**/
-.animate {
-  font-size: 40px;
-  margin: 100px 0 0;
-} .animate span {
-  display: inline-block;
-} .box span {
-  color: #fff;
-  opacity: 0;
-  transform: translate(-150px, 0) scale(.5);
-  animation: leftRight 1s forwards;
-} @keyframes leftRight { 40% {
-    transform: translate(30px, 0) scale(.7);
-    opacity: 1;
-    color: #000;
-  } 60% {
-    color: #fff;
-  } 80% {
-    transform: translate(0) scale(2);
-    opacity: 0;
-  } 100% {
-    transform: translate(0) scale(1);
-    opacity: 1;
-  } }
-/** 输入文字动画 结束**/
