@@ -11,3 +11,11 @@ sitemap: false
 @import "vendor/fonts";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
+/** 鼠标样式 开始**/
+/** 普通指针样式**/
+body {
+cursor: url(http://cuijiahua.com/xxx/cursor_1.png), default;
+}
+/** 链接指针样式**/
+a:hover{cursor:url(http://cuijiahua.com/xxx/cursor_2.png), pointer;}
+/** 鼠标样式 结束**/
