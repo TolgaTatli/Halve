@@ -7,7 +7,7 @@ layout: home
    爱好：玩游戏xD 
 
 这是 我 利用Github搭建的 O
-使用的主题为 [Vangelis Tzortzis](https://github.com/srekoble) 的 [Halve](http://vangeltzo.com/) 
+使用的主题为 [Taylan Tatlı](https://github.com/TaylanTatli) 的 [Halve](https://taylantatli.github.io/Halve/) 
 
 
  <a href="http://wpa.qq.com/msgrd?v=3&uin=1635376770&site=qq&menu=yes" target="_blank">发起QQ对话</a>  
