@@ -10,7 +10,18 @@ layout: compress
       <div class="main-info">
         <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
         <h1>
-          {{ site.title }}
+          <span id="box"></span>
+          <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/2.0.5/typed.js"></script>
+          <script>
+            var boxObj = document.getElementById('box');
+            new Typed(boxObj,{
+              strings: ['<h2>我是打印字typed.js<h2>','我是案例一222','我是最后一个打印出来的'],
+              typeSpeed:200 
+            });
+          </script>
+          
+          
+          
         </h1>
         <h2>
           {{ site.description }}
@@ -38,6 +49,5 @@ layout: compress
   {% include scripts.html %}
 <script src="{{ site.url }}/assets/js/canvas.js"></script>
 <script src="{{ site.url }}/assets/js/src/DianJiTeXiao.js"></script>
-<script src="{{ site.url }}/typed.js/lib/typed.js"></script>
 </body>
 </html>
