@@ -5,7 +5,7 @@
   {% if page.title %}
   <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }} &#8211; {{ site.title }}</title>
   {% else %}
-  <title>Kaitlynnnnn</title>
+  <title>{{ site.title }}
   {% endif %}
   {% if page.excerpt %}
   <meta name="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
