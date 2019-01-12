@@ -61,15 +61,16 @@
     #posts .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.url }}/{{ site.background.post-list }}) no-repeat;background-size: cover, cover;}
     .block-left {background: linear-gradient(rgba(44,45,51,0.9), rgba(44,45,51,0.9)), url({{ site.url }}/{{ site.background.homepage }}) no-repeat;background-size: cover;}
   
-  <canvas id="paul" width="280" height="250"></canvas>
-  <script src="https://kaitlynnnnn.github.io/live2d_src/src/lib/live2d.min.js"></script>
-  <script>loadlive2d('paul', 'https://kaitlynnnnn.github.com/live2d_src/model.json');</script>                                                                                                                                                      
+  </style>
+   <canvas id="paul" width="280" height="250"></canvas>
+   <script src="https://kaitlynnnnn.github.io/live2d_src/src/lib/live2d.min.js"></script>
+   <script>loadlive2d('paul', 'https://kaitlynnnnn.github.com/live2d_src/model.json');
+   </script>                                                                                                                                                      
   #paul{
     left: 0;
     bottom: 0;
     z-index: 520; /* 如果模型被遮住 */
     position: fixed;
     pointer-events: none; /* 防止遮住鼠标点击页面其他内容 */
-}
-  </style>
+                                                                              }
 </head>
