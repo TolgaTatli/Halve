@@ -1,3 +1,4 @@
+<span id="box"></span>
 var boxObj = document.getElementById('box');
    new Typed(boxObj,{
       // 注意：输出的可以是标签，将标签当节点运行。比如下面的h2
