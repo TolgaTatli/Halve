@@ -50,5 +50,17 @@ layout: compress
   {% include scripts.html %}
 <script src="{{ site.url }}/assets/js/canvas.js"></script>
 <script src="{{ site.url }}/assets/js/src/DianJiTeXiao.js"></script>
+  
+
+   <canvas id="paul" width="280" height="250"></canvas>
+   <script src="https://kaitlynnnnn.github.io/live2d_src/src/lib/live2d.min.js"></script>
+   <script>loadlive2d('paul', 'https://kaitlynnnnn.github.com/live2d_src/model.json');
+   </script>                                                                                                                                                      
+  #paul{
+    left: 0;
+    bottom: 0;
+    z-index: 520; /* 如果模型被遮住 */
+    position: fixed;
+    pointer-events: none; /* 防止遮住鼠标点击页面其他内容 */
 </body>
 </html>
