@@ -15,7 +15,7 @@ $Github.这里使用的主题为 [Taylan Tatlı](https://github.com/TaylanTatli)
 
 
 
-<a href="http://wpa.qq.com/msgrd?v=3&uin=1635376770&site=qq&menu=yes" target="_blank">[-]Tencent QQ</a>  
+<a href="http://wpa.qq.com/msgrd?v=3&uin=1635376770&site=qq&menu=yes" target="_blank">[ ~ ]Tencent QQ</a>  
 
 
  
