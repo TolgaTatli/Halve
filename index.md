@@ -3,7 +3,7 @@ layout: home
 ---
 # About me
 
-我是茗赫(Kaitlynnnnn)，一名学生 A
+我是茗赫(DreamMingHe)，一名学生 A
    爱好：玩游戏xD 
 
 这是 我 利用Github搭建的 O
