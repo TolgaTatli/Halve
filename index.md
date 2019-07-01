@@ -7,7 +7,7 @@ layout: home
 
 
 
-$Github.咱这用的主题为 [Taylan Tatlı](https://github.com/TaylanTatli) 的 [Halve](https://taylantatli.github.io/Halve/)
+$Github.主题为 [Taylan Tatlı](https://github.com/TaylanTatli) 的 [Halve](https://taylantatli.github.io/Halve/)
 
 
 
