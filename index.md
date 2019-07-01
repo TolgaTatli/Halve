@@ -3,11 +3,11 @@ layout: home
 ---
 # Ya Hello~ 
 
-我是茗赫(DreamMingHe)，一只KBの学生
+咱这里是 贤者DreamMingHeの无用Github pages
 
 
 
-$Github.这里使用的主题为 [Taylan Tatlı](https://github.com/TaylanTatli) 的 [Halve](https://taylantatli.github.io/Halve/)
+$Github.咱这里使用的主题为 [Taylan Tatlı](https://github.com/TaylanTatli) 的 [Halve](https://taylantatli.github.io/Halve/)
 
 
 
