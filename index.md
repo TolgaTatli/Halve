@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# Ya Hello~ 
+# About 
 
 咱这是 贤者DreamMingHeの无用Github pages
 
