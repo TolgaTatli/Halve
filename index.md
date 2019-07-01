@@ -3,7 +3,7 @@ layout: home
 ---
 # About 
 
-##这里是咱一点用都没的Github pages
+这里是咱一点用都没的Github pages
 
 
 
