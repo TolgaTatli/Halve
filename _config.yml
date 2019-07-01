@@ -29,10 +29,10 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             DreamMingHe@163.com
+email:             DreamMingHe@163.com
 #google.plus:        username
 #twitter:            DreamMingHe
-#facebook:           username
+facebook:           DreamMingHe
 github:             DreamMingHe
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
