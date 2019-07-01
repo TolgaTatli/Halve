@@ -31,10 +31,10 @@ sass:
 # Social Links
 #email:             DreamMingHe@163.com
 #google.plus:        username
-twitter:            DreamMingHe
+#twitter:            DreamMingHe
 #facebook:           username
 github:             DreamMingHe
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
@@ -42,7 +42,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-#steam:              username
+steam:              DreamMingHe
 #dribbble:          username
 #youtube:           username
 #soundcloud:        Kaitlynnnnn
@@ -52,7 +52,8 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           DreamMingHe
+#behance:           DreamMingHe
+QQ:                 1635376770
 
 # Gems
 gems:
