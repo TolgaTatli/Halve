@@ -1,5 +1,5 @@
 {% if page.share != false %}
   <a href="http://service.weibo.com/share/share.php?title={{ site.url }}{{ page.url }}" class="btn btn_twitter" title="Share on weibo"><i class="fa fa-fw fa-weibo" aria-hidden="true"></i><span> weibo</span></a>
-  <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{ site.url }}&sharesource=qzone&title={{ page.url }}" class="btn btn_facebook" title="Share on Qzone"><i class="fa fa-fw fa-qq" aria-hidden="true"></i><span> Qzone</span></a>
+  <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{ site.url }}{{ page.url }}&sharesource=qzone&title=Share}" class="btn btn_facebook" title="Share on Qzone"><i class="fa fa-fw fa-qq" aria-hidden="true"></i><span> Qzone</span></a>
   <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="btn btn_google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
 {% endif %}
