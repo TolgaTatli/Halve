@@ -22,7 +22,7 @@ tags:
 {% endcapture %}
 {% include gallery images=images caption="在地址栏输入"}
 
-#### 常用搜索引擎地址:
+* 常用搜索引擎地址:
 
 {% highlight yaml %}
 - 百度Baidu : https://www.baidu.com
@@ -41,7 +41,7 @@ tags:
 在搜索结果中查找所需信息，若搜索不到信息，请尝试更换内容关键词。
 
 
-## FAQ~
+#### FAQ~
 <dl>
   <dt>问：什么是浏览器呀？~</dt>
   <dd>答：使用搜索引擎搜索就知道了XD</dd>
@@ -50,7 +50,7 @@ tags:
   <dt>问：能读到这篇文章的人肯定知道如何使用的呀~</dt>
   <dd>答：You are right,so get out from here!</dd>
 </dl>
-### End
+#### End
 Good luck!
 艹翻无知!
   
