@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "How to use search engine"
-date:   2019-07-19
 tags:
   - Chat
   - Helper
+  - Water.XD
 ---
 
-` 前语:不要问为什么我要写这个东西。 `
+前语:不要问为什么我要写这个东西。 
 ## 如何使用搜索引擎搜索自己想要的信息。
 步骤有五。
 ### 1. 浏览器
