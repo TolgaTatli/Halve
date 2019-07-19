@@ -21,10 +21,10 @@ tags:
 
 {% highlight yaml %}
 常用搜索引擎地址:
-百度Baidu : https://www.baidu.com ；
-微软必应Bing : https://cn.bing.com ；
-搜狗Sogou : https://www.sogou.com ；
-比特Bitsoo : http://soo.bitdock.cn
+- 百度Baidu # https://www.baidu.com ；
+- 微软必应Bing # https://cn.bing.com ；
+- 搜狗Sogou # https://www.sogou.com ；
+- 比特Bitsoo # soo.bitdock.cn
 {% endhighlight %}
 
 ### 第三步，进入搜索网站
