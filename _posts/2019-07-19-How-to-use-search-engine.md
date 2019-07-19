@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How-to-use-search-engine"
+title: "How to use search engine"
 date:   2016=9-07-19
 categories:
   - Post
@@ -8,6 +8,7 @@ tags:
   - Chat
   - Helper
 ---
+
 ` 前语:不要问为什么我要写这个东西。 `
 ## 如何使用搜索引擎搜索自己想要的信息(步骤有五)。
 ### 1. 打开一个`浏览器`。
