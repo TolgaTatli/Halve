@@ -2,41 +2,43 @@
 layout: post
 title: "How to use search engine"
 date:   2019-07-19
-categories:
-  - Post
 tags:
   - Chat
   - Helper
 ---
 
 ` 前语:不要问为什么我要写这个东西。 `
-## 如何使用搜索引擎搜索自己想要的信息(步骤有五)。
-### 1. 打开一个`浏览器`。
-*(既然汝能看到这片水文，说明您已经有一个浏览器了。)
-### 2. 在地址栏中输入`搜索引擎地址`。
+## 如何使用搜索引擎搜索自己想要的信息。
+步骤有五。
+### 1. 浏览器
 
+拥有一个浏览器，打开它！
+(既然汝能看到这片水文，说明您已经拥有一个浏览器了。)
+
+### 2. 搜索引擎
+在浏览器的地址栏键入一个搜索引擎地址
 {% capture images %}
 {{ site.url }}/images/post1-2.png
 {% endcapture %}
 {% include gallery images=images caption="在地址栏输入"}
 
-*常用搜索引擎地址:
+#### 常用搜索引擎地址:
 
 {% highlight yaml %}
 - 百度Baidu : https://www.baidu.com
 - 微软必应Bing : https://cn.bing.com
 - 搜狗Sogou : https://www.sogou.com
 - 比特Bitsoo : http://soo.bitdock.cn
-
 {% endhighlight %}
 
-### 3. 点击键盘上的 ` "Enter（回车）"  ` 键。
+### 3. 进入搜索引擎地址
+键入搜索引擎地址后，点击键盘上的"Enter（回车）"键进入搜索网站
 
-### 4. 在搜索框中键入自己想要知道的信息。
+### 4. 键入问题
+在搜索网站的搜索框中键入自己所想要了解的信息的关键词，再次点击键盘上的"Enter（回车）"键确定搜索内容，开始搜索。
 
-### 5. 点击键盘上的 ` "Enter（回车）" ` 键确定搜索内容及开始搜索。
-
-### 6. 查看搜索结果，寻找适合信息。
+### 5. 查看搜索结果
+在搜索结果中查找所需信息，若搜索不到信息，请尝试更换内容关键词。
 
 
 ## FAQ~
@@ -48,7 +50,7 @@ tags:
   <dt>问：能读到这篇文章的人肯定知道如何使用的呀~</dt>
   <dd>答：You are right,so get out from here!</dd>
 </dl>
+#### End
 Good luck!
 艹翻无知!
-
-<iframe src="https://ghbtns.com/github-btn.html?user=DreamMingHe&repo=Halve&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
+  
