@@ -17,7 +17,7 @@ tags:
 
 ### 第二步，键入搜索引擎
 在浏览器的地址栏键入一个搜索引擎地址
-image: /images/post1-2.png
+<a href="{{ site.url }}/images/post1-2.png"><img src="{{ site.url }}/images/post1-2.png" alt="键入框"></a>  
 
 {% highlight yaml %}
 常用搜索引擎地址:
