@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to use search engine"
+title: "如何使用搜索引擎搜索信息"
 tags:
   - Chat
   - Helper
@@ -8,36 +8,34 @@ tags:
 ---
 
 前语:不要问为什么我要写这个东西。 
-## 如何使用搜索引擎搜索自己想要的信息。
-步骤有五。
-### 浏览器
+## 如何使用搜索引擎搜索自己想要的信息
+步骤有五哦~
+### 第一步，打开浏览器
 
 拥有一个浏览器，打开它！
 (既然汝能看到这片水文，说明您已经拥有一个浏览器了。)
 
-### 搜索引擎
+### 第二步，键入搜索引擎
 在浏览器的地址栏键入一个搜索引擎地址
 {% capture images %}
 {{ site.url }}/images/post1-2.png
 {% endcapture %}
 
-
-常用搜索引擎地址:
-
 {% highlight yaml %}
+常用搜索引擎地址:
 百度Baidu : https://www.baidu.com ；
 微软必应Bing : https://cn.bing.com ；
 搜狗Sogou : https://www.sogou.com ；
 比特Bitsoo : http://soo.bitdock.cn
 {% endhighlight %}
 
-### 进入搜索引擎地址
+### 第三步，进入搜索网站
 键入搜索引擎地址后，点击键盘上的"Enter（回车）"键进入搜索网站
 
-### 键入问题
+### 第四步，键入问题
 在搜索网站的搜索框中键入自己所想要了解的信息的关键词，再次点击键盘上的"Enter（回车）"键确定搜索内容，开始搜索。
 
-### 查看搜索结果
+### 第五步，查看搜索结果
 在搜索结果中查找所需信息，若搜索不到信息，请尝试更换内容关键词。
 
 
