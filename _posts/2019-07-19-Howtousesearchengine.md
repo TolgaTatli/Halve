@@ -17,9 +17,7 @@ tags:
 
 ### 第二步，键入搜索引擎
 在浏览器的地址栏键入一个搜索引擎地址
-{% capture images %}
-{{ site.url }}/images/post1-2.png
-{% endcapture %}
+![sousuoHelperPhotos]({{ site.url }}/images/post1-2.png)
 
 {% highlight yaml %}
 常用搜索引擎地址:
