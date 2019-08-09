@@ -20,7 +20,7 @@ layout: compress
               {% endunless %}
             {% endfor %}
           </ul>
-          <div class="section-line reverse"><a href="{{ site.url}}/posts">Back to posts</a> <em>/</em></div>
+          <div class="section-line reverse"><a href="{{ site.url}}/posts">Back to Lists</a> <em>/</em></div>
         </div>
       </div>
     </div>
@@ -29,7 +29,8 @@ layout: compress
       <div class="share-buttons">
         {% include share.html %}
       </div>
-      <a href="../posts.html" title="posts" class="posts-menu-icon"></a>
+      <a href="{{ site.url }}/ml" title="ml" class="ml-menu-icon"></a>
+      <a href="{{ site.url }}/webapp" title="webapp" class="webapp-menu-icon"></a>
       <a title="projects" class="projects-menu-icon">
         <span></span>
       </a>
@@ -37,9 +38,9 @@ layout: compress
         <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
         {{ content }}
         <br>
-        {% include share.html %}
         {% include page-pagination.html %}
       </div>
+      <canvas></canvas>
     </div>
     {% include scripts.html %}
     {% include overlay.html %}

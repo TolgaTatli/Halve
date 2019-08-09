@@ -1,19 +1,24 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
-logo: halve.png                                       # Site logo
+title: Inaheaven
+description: Personal Portfolio
+url: https://inaheaven.github.io/home
+logo: /logo/inaheaven_logo.png                                       # Site logo
 locale: en_US
 
 # Left Block Images
 background:
-  homepage: images/home.png                           # this image will be shown on homepage's left block
-  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
-  default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
+  homepage: images/background/background_6.jpeg                           # this image will be shown on homepage's left block
+  post-list: images/background/background_9.jpeg             # this image will be shown on post list page
+  default-post: images/background/background_11.jpeg   # this image will be shown when post's front matter doesn't specify any image
 
 # Jekyll
-permalink:          /:title/
+permalink:          /:categories/:year/:month/:day/:title
 markdown:           kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate-v2
 highlighter:        rouge
 kramdown:
   auto_ids:         true
@@ -29,12 +34,12 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:              sangmin.rim@gmail.com
 #google.plus:        username
-twitter:            username
+#twitter:            username
 #facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+github:             inaheaven
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
@@ -52,14 +57,27 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           username
 
-# Gems
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+# Gems Has Been Deprecated
+#gems:
+#  - jekyll-feed
+#  - jekyll-sitemap
+#  - jekyll-gist
+#  - jekyll-paginate-v2
 
 # Exclude list
 include: [_pages]
 exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
+
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 4
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+

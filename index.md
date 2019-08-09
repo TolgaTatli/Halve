@@ -1,10 +1,18 @@
 ---
 layout: home
 ---
-# About Theme
+# About
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+Hi All, My name is Sangmin and this is my personal blog and portfolio page.
+If you have any questions, find a bug, or just want to say hi, feel free to email me by clicking the email icon on the left.  
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+<br>
+Many thanks to Vangelis Tzortzis (from vangeltzo.com), <br>
+Christian Fei (https://github.com/christian-fei), <br>
+Sverrir Sigmundarson (https://github.com/sverrirs) <br>
+for sharing this great theme, searching and pagination tools. 
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+<br>
+Find the box below to search my posts by Title, Category, Tag(Keyword) or Date. 
+
+ 
