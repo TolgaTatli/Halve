@@ -1,29 +1,39 @@
-- title: Halve Jekyll Theme
-  url: http://taylantatli.me/Halve
-  image: http://taylantatli.me/Halve/images/halve-home-image.png
+- title: Stock Portfolio Optimization
+  url:
+  image:
   completed: false
 
-- title: Moon Jekyll Theme
-  url: http://taylantatli.me/Moon
-  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
+- title: IEEE ACCESS <br> Automotive ECU Data-Based <br> Driver’s Propensity Learning <br> Using Evolutionary Random Forest
+  url: https://ieeexplore.ieee.org/document/8693502
+  image: images/project/ieee_ecu.png
   completed: true
 
-- title: Ramme Jekyll Theme
-  url: http://taylantatli.me/Ramme
-  image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
+- title: mStudio - Individual <br> (Ingris and Caide Systems Joint Work)
+  url: https://www.caidesystems.com/mstudio-individual/
+  image: https://www.caidesystems.com/wp-content/uploads/2018/08/instimg_1.png
   completed: true
 
-- title: Daisy Pelican Theme
-  url: http://taylantatli.me/Daisy-Pelican-Theme/
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
-  completed: true
-
-- title: Block Icon Theme
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
+- title: mStudio - Admin  <br> (Ingris and Caide Systems Joint Work)
+  url:
+  image: images/project/mstudio_admin.png
   completed: false
 
-- title: Start Page
-  url: http://taylantatli.me/StartPage/
-  image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
+- title: ingris home
+  url: http://www.ingris.co.kr/
+  image: images/project/ingris.png
+  completed: true
+
+- title: Resume
+  url:
+  image:
+  completed: false
+
+- title: Certificates 1
+  url:
+  image:
+  completed: false
+
+- title: Certificates 2
+  url:
+  image:
   completed: false

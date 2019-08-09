@@ -20,19 +20,28 @@ layout: compress
         {% include social-links.html %}
       </div>
     </div>
-    <canvas></canvas>
   </div>
 
   <div class="block-right">
-    <a href="{{ site.url }}/posts" title="posts" class="posts-menu-icon"></a>
-    <span class="posts-link">POSTS</span>
+    <!-- added webapp-->
+    <a href="{{ site.url }}/ml" title="ml" class="ml-menu-icon"></a>
+    <span class="ml-link">&nbsp;MACHINE<br>LEARNING</span>
+
+    <a href="{{ site.url }}/webapp" title="webapp" class="webapp-menu-icon"></a>
+    <span class="webapp-link">WEB/APP</span>
     <a title="project" class="projects-menu-icon">
       <span></span>
     </a>
+
     <span class="projects-link">PROJECTS</span>
     <div class="content">
       <div class="about-info">
         {{ content }}
+      </div>
+      <!-- Html Elements for Search -->
+      <div id="search-container" class="search-container">
+        <input type="text" id="search-input" class="search-input" placeholder="Search Posts by Title or Category">
+        <ul id="results-container"></ul>
       </div>
     </div>
   </div>
@@ -41,3 +50,12 @@ layout: compress
   <script src="{{ site.url }}/assets/js/canvas.js"></script>
 </body>
 </html>
+<script>
+  window.simpleJekyllSearch = new SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false});
+</script>
