@@ -24,4 +24,4 @@ git config user.email "sangmin.rim@gmail.com"
 git config user.name "inaheaven"
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force origin master
+git push --force origin develop
