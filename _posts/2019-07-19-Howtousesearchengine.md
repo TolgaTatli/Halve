@@ -44,5 +44,5 @@ tags:
   <dt>问："Enter(回车)" 键是什么？~</dt>
   <dd>答：如上答复。</dd>
   <dt>问：能读到这篇文章的人肯定知道如何使用的呀~</dt>
-  <dd>答：You are right,so get out from here!</dd>
+  <dd>答：话多。</dd>
 </dl>
