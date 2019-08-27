@@ -38,7 +38,7 @@ github:             DreamMingHe
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-#instagram:          username
+#instagram:         username
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
@@ -47,7 +47,7 @@ steam:              DreamMingHe
 #dribbble:          username
 #youtube:           username
 #soundcloud:        Kaitlynnnnn
-weibo:             DreamMingHe
+weibo:              DreamMingHe
 #flickr:            username
 #codepen:           username
 #keybase:           username
@@ -57,6 +57,7 @@ weibo:             DreamMingHe
 NetEaseMusic:       326210295
 QQ:                 1635376770
 Wechat:             LOL
+Bilibili:           305615505
 
 
 # Gems
