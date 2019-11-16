@@ -5,12 +5,12 @@
   {% if page.title %}
   <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }} &#8211; {{ site.title }}</title>
   {% else %}
-  <title>{{ site.title }}</title>
+  <title>{{ site.title }}
   {% endif %}
   {% if page.excerpt %}
   <meta name="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
   {% else %}
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description }}
   {% endif %}
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   <!-- Twitter Cards -->
@@ -60,5 +60,7 @@
   <style type="text/css">
     #posts .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.url }}/{{ site.background.post-list }}) no-repeat;background-size: cover, cover;}
     .block-left {background: linear-gradient(rgba(44,45,51,0.9), rgba(44,45,51,0.9)), url({{ site.url }}/{{ site.background.homepage }}) no-repeat;background-size: cover;}
-  </style>
+            }                    
+   </style>     
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>

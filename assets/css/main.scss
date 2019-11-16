@@ -11,3 +11,36 @@ sitemap: false
 @import "vendor/fonts";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
+/** 鼠标样式 开始**/
+/** 普通指针样式**/
+body {
+cursor: url(https://raw.githubusercontent.com/Kaitlynnnnn/Kaitlynnnnn.github.io/master/images/1.png), default;
+}
+/** 链接指针样式**/
+a:hover{cursor:url(https://raw.githubusercontent.com/Kaitlynnnnn/Kaitlynnnnn.github.io/master/images/2.png), pointer;}
+/** 鼠标样式 结束**/
+/* 如果光标没出现，而是出现在下一行，那么就是盒子是块级标签，必须得转换成行内标签 */
+h2 {
+  display: inline;
+}
+/* 想让的光标闪动的话，复制下面的代码 */
+.typed-cursor{
+  opacity: 1;
+  animation: typedjsBlink 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
+}
+@keyframes typedjsBlink{
+  50% { opacity: 0.0; }
+}
+@-webkit-keyframes typedjsBlink{
+  0% { opacity: 1; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1; }
+}
+.typed-fade-out{
+  opacity: 0;
+  transition: opacity .25s;
+  -webkit-animation: 0;
+  animation: 0;
+}

@@ -1,7 +1,8 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
+title: DreamMingHe
+description: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=2477805857&auto=0&height=90"></iframe>
+
+url: https://DreamMingHe.github.io
 logo: halve.png                                       # Site logo
 locale: en_US
 
@@ -29,30 +30,35 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:             DreamMingHe@163.com
 #google.plus:        username
-twitter:            username
-#facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#twitter:            DreamMingHe
+#facebook:           DreamMingHe
+github:             DreamMingHe
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-#instagram:          username
+#instagram:         username
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-#steam:              username
+#steam:              DreamMingHe
 #dribbble:          username
 #youtube:           username
-#soundcloud:        username
-#weibo:             username
+#soundcloud:        Kaitlynnnnn
+weibo:              DreamMingHe
 #flickr:            username
 #codepen:           username
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           DreamMingHe
+NetEaseMusic:       326210295
+QQ:                 1635376770
+Wechat:             LOL
+#Bilibili:           305615505
+
 
 # Gems
 gems:

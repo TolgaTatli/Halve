@@ -1,10 +1,30 @@
 ---
 layout: home
 ---
-# About Theme
+# About me
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+本人是一个EZの学生，性别男！
+对待工作认真负责，善于沟通、协调有较强的组织能力与团队精神；活泼开朗、乐观上进、有爱心并善于施教并行；上进心强、勤于学习能不断提高自身的能力与综合素质吧！
+爱好：口嗨 xD
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+                     
+
+
+                  
+
+

@@ -32,3 +32,4 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 });
+  

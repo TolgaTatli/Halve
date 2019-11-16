@@ -1,29 +1,30 @@
-- title: Halve Jekyll Theme
-  url: http://taylantatli.me/Halve
-  image: http://taylantatli.me/Halve/images/halve-home-image.png
+- title: About me
+  url: https://dreamminghe.github.io/
+  image: https://files.yande.re/sample/a04384cec9df3b7778214b1a0508769d/yande.re%20545334%20sample%20hatsune_miku%20headphones%20seifuku%20soyubee%20thighhighs%20vocaloid.jpg
+  completed: true
+
+- title: None
+  url: https://user.qzone.qq.com/1635376770
+  image: https://files.yande.re/sample/f98fb557cfd225a6cb23725adbe0d4c1/yande.re%20542045%20sample%20possible_duplicate%20tagme%20topia.jpg
   completed: false
 
-- title: Moon Jekyll Theme
-  url: http://taylantatli.me/Moon
-  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-  completed: true
+- title: None
+  url: http://www.imomoe.jp/view/2883.html
+  image: https://files.yande.re/jpeg/89dcd44b7cd224d7fdfd33fdd1237aad/yande.re%20542046%20animal_ears%20tagme%20tail%20topia.jpg
+  completed: false
 
-- title: Ramme Jekyll Theme
-  url: http://taylantatli.me/Ramme
-  image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
-  completed: true
-
-- title: Daisy Pelican Theme
+- title: None
   url: http://taylantatli.me/Daisy-Pelican-Theme/
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
-  completed: true
+  image: 1
+  completed: false
 
-- title: Block Icon Theme
+- title: None
   url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
+  image: 1
   completed: false
 
 - title: Start Page
   url: http://taylantatli.me/StartPage/
-  image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
+  image: 1
   completed: false
+  
