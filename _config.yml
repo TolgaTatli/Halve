@@ -26,7 +26,9 @@ sass:
   style:            compressed
 
 # Google Analytics
-#google-analytics: UA-XXXXX-Y
+google-analytics:
+  tracking-id: UA-XXXXX-Y
+  track-social-links: false
 
 # Social Links
 #email:             email
@@ -53,6 +55,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #xmpp:              username@server.com
 #hackernews:        username
 behance:           username
+#strava:             userid         # no icon for now, check font awesome for updates # number form a my profile link https://www.strava.com/athletes/123456
 
 # Gems
 gems:
