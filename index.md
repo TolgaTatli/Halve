@@ -1,10 +1,10 @@
 ---
 layout: home
 ---
-# About Theme
+# Howdy
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+Hi there! 
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+My name is Jack Griffiths, a Fourth year Computer Science student, with a minor in Applied Music Technology. This is the future space for me to present my projects, both developing and music related. 
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+Stay tuned!

@@ -1,8 +1,8 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
-logo: halve.png                                       # Site logo
+title: home
+description: Under Construction Home Page
+url: http://jackagriffiths.xyz/home
+logo: logoboi.png                                       # Site logo
 locale: en_US
 
 # Left Block Images
@@ -30,19 +30,19 @@ sass:
 
 # Social Links
 #email:             email
-#google.plus:        username
-twitter:            username
-#facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+#google.plus:       username
+#twitter:           username
+#facebook:          username
+github:             jackagriffiths
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           jack-griffiths
 #xing:              username
-#instagram:          username
-#lastfm:            username
+instagram:          jg.v._
+lastfm:             valencee
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-#steam:              username
+steam:              valencee
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
@@ -52,7 +52,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           username
 
 # Gems
 gems:
